@@ -25,7 +25,7 @@ var intervalFn = function() {
                     		dataType:"jsonp",
                     		success:function(data) {
                     			if( data.success ) {
-                        			$('body').append('<div id="plinkStatus" style="display:none;position:fixed;top:0;left:0;text-align:center;background-color:rgba(0,0,0,.75);color:white;font-weight:bold;width:100%;"><p>Successfully Stashed URL with <a style="color:yellow;" href="'+plink.home+'">Plink</a>!</p></div>');
+                        			$('body').append('<div id="plinkStatus" style="z-index:1000;display:none;position:fixed;top:0;left:0;text-align:center;background-color:rgba(0,0,0,.75);color:white;font-weight:bold;width:100%;"><p>Successfully Stashed URL with <a style="color:yellow;" href="'+plink.home+'">Plink</a>!</p></div>');
                         			var timeOut, status = $('#plinkStatus').click(function(e){
                         				clearTimeout(timeOut);
                         				$(this).slideUp(function(){$(this).remove();});
