@@ -17,6 +17,7 @@ Plink runs on a LAMP stack and uses twitter-async for Twitter/OAuth authenticati
 5. Edit the properties.ini.example and rename to properties.ini
 6. Add the following table to your database: 
 
+
 	CREATE TABLE `stash` (
 		`uuid` VARCHAR( 36 ) NOT NULL ,
 		`twitter` VARCHAR( 128 ) NOT NULL ,
