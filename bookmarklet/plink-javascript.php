@@ -1,6 +1,6 @@
 <?php header('Content-Type: application/javascript');
 
-include 'properties.php';
+include '../properties.php';
 
 $username = $_GET['username'];
 $token = $_GET['token'];
