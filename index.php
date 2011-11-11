@@ -115,7 +115,7 @@
 					}					
 				}
 				
-				$bookmarklet = "javascript:(function(){cmc=document.createElement(%27SCRIPT%27);cmc.type=%27text/javascript%27;cmc.src=%27{$homeUrl}/bookmarklet/{$username}/{$plinkToken}/plink.js?x=%27+(Math.random());document.getElementsByTagName(%27head%27)[0].appendChild(cmc);})();";
+				$bookmarklet = "javascript:(function(){cmc=document.createElement(%27SCRIPT%27);cmc.type=%27text/javascript%27;cmc.src=%27{$homeUrl}bookmarklet/{$username}/{$plinkToken}/plink.js?x=%27+(Math.random());document.getElementsByTagName(%27head%27)[0].appendChild(cmc);})();";
 				
 			?>
 			
