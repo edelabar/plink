@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule (.+)/(.+)/plink.js plink-javascript.php&username=$1&token=$2 [L]
