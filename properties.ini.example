@@ -1,0 +1,15 @@
+; Fill in with values appropriate for your environment
+[twitter]
+consumer_key = ""
+consumer_secret = ""
+
+[database]
+server = localhost"
+dbname = "plink"
+tableName = "stash"
+username = "plink"
+password = "plink"
+
+[site]
+url = "http://changeme.com/"
+adminEmail = "someone@changeme.com"
