@@ -4,7 +4,7 @@ consumer_key = ""
 consumer_secret = ""
 
 [database]
-server = localhost"
+server = "localhost"
 dbname = "plink"
 tableName = "stash"
 username = "plink"
